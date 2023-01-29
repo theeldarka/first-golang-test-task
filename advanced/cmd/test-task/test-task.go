@@ -1,8 +1,8 @@
 package main
 
 import (
+	"advanced/internal/pkg/app"
 	"github.com/labstack/gommon/log"
-	"simple/internal/pkg/app"
 )
 
 func main() {

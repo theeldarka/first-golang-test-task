@@ -1,10 +1,10 @@
 package app
 
 import (
+	"advanced/internal/app/endpoint"
+	"advanced/internal/app/middleware"
+	"advanced/internal/app/service"
 	"github.com/labstack/echo/v4"
-	"simple/internal/app/endpoint"
-	"simple/internal/app/middleware"
-	"simple/internal/app/service"
 )
 
 type App struct {
