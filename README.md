@@ -13,3 +13,8 @@ Think about coding standards and best practices.
 In general, the task is about providing a working solution, but if you have time to create a good code-structure, we'd love it!
 
 Thanks, [@spatecon](https://github.com/spatecon) for the task!
+
+## Run solution
+```shell
+docker run theeldarka/first-golang-test-task:latest
+```
