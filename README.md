@@ -16,5 +16,16 @@ Thanks, [@spatecon](https://github.com/spatecon) for the task!
 
 ## Run solution
 ```shell
-docker run theeldarka/first-golang-test-task:latest
+docker run -p 8090:1323 theeldarka/first-golang-test-task:latest
+```
+
+Go to [http://localhost:8090](http://localhost:8090n)
+
+Let's check the middleware:
+```shell
+curl http://localhost:8090 --header User-Role:\ Super-Admin
+```
+Then, look at the console logs
+```json
+{"time":"2023-01-29T21:38:59.080717517Z","level":"WARN","prefix":"-","file":"middleware.go","line":"14","message":"red button user detected"}
 ```
